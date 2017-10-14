@@ -12,7 +12,18 @@ const AppDriver = StackNavigator({
 
 export default class App extends React.Component {
   render() {
+<<<<<<< HEAD
     return <AppDriver />;
+=======
+    return (
+      <View style={styles.container}>
+        <Text>Open up App.js to start working on your app!</Text>
+        <Text>Changes you make will automatically reload.</Text>
+        <Text>Shake your phone to open the developer menu.</Text>
+        <Text>This was added by Gunnar</Text>
+      </View>
+    );
+>>>>>>> c281e8699f57922c3c0796dc11b5cd6c25a764fd
   }
 }
 
